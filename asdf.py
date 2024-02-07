@@ -1,9 +1,12 @@
 import requests
 import aiohttp
 import asyncio
-
+import os
+os.mkdir('main')
+os.mkdir('aiohttp')
 
 #####################1
+
 
 
 def save_data(url):
